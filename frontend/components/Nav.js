@@ -1,8 +1,10 @@
 import Link from "next/link";
-const Home = props => {
+const Nav = props => {
   return (
     <div>
-      <p>Home !</p>
+      <Link href="/">
+        <a>Home!</a>
+      </Link>
       <Link href="/sell">
         <a>Sell !</a>
       </Link>
@@ -10,4 +12,4 @@ const Home = props => {
   );
 };
 
-export default Home;
+export default Nav;
