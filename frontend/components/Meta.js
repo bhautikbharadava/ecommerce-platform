@@ -9,3 +9,5 @@ const Meta = props => (
     <title>E-Commerce</title>
   </Head>
 );
+
+export default Meta;
